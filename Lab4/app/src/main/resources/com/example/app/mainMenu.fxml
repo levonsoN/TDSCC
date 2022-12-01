@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchor" prefHeight="178.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.app.MainMenuController">
+    <Button fx:id="customButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#customClicked"
+            prefHeight="25.0" prefWidth="347.0" text="Execute Custom Query"/>
+    <Button fx:id="addButton" layoutX="14.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#addClicked"
+            prefHeight="25.0" prefWidth="347.0" text="Add Weather Data"/>
+    <Button fx:id="getButton" layoutX="14.0" layoutY="76.0" mnemonicParsing="false" onMouseClicked="#getClicked"
+            prefHeight="25.0" prefWidth="347.0" text="Get Weather Data"/>
+    <Button fx:id="editButton" layoutX="14.0" layoutY="107.0" mnemonicParsing="false" onMouseClicked="#editClicked"
+            prefHeight="25.0" prefWidth="347.0" text="Edit Weather Data"/>
+    <Button fx:id="deleteButton" layoutX="14.0" layoutY="138.0" mnemonicParsing="false" onMouseClicked="#deleteClicked"
+            prefHeight="25.0" prefWidth="347.0" text="Delete Weather Data"/>
+</AnchorPane>
